@@ -1,6 +1,6 @@
 # Contribuer au Design System AXA France
 
-Merci de considérer la contribution au Design System AXA France ! Nous sommes ravis de voir que vous souhaitez participer à l'amélioration de notre projet qui regroupe les design systems d'AXA France.
+Merci dee considérer la contribution au Design System AXA France ! Nous sommes ravis de voir que vous souhaitez participer à l'amélioration de notre projet qui regroupe les design systems d'AXA France.
 
 ## Démarrage du projet
 
@@ -36,19 +36,20 @@ git switch -c nom-de-ma-branche
 
 Nous utilisons [Conventional Commits](https://www.conventionalcommits.org/) pour nous assurer que les messages de commit respectent les conventions spécifiées.
 
-````plaintext
+```plaintext
 <type>[scope]: <description>
 
 [optional body]
 
 [optional footer(s)]
-````
+```
 
 Voici les règles à suivre pour les scopes de commit :
+
 - Utilisez le scope correspondant au design system mis à jour par le commit. Les scopes disponibles sont :
-    - `slash`
-    - `look&feel`
-    - `apollo`
+  - `slash`
+  - `look&feel`
+  - `apollo`
 - Si le commit traite de deux ou plusieurs design systems, séparez les scopes par une virgule (`,`).
 - Si le commit est plus général au projet, utilisez le scope `design-system`.
 - Les scopes `deps`, `deps-dev` et `release` sont réservés et ne doivent pas être utilisés.
@@ -69,6 +70,7 @@ Pour indiquer un changement majeur qui casse la compatibilité, ajoutez un '!' e
 > La section "BREAKING CHANGE" permet de décrire les changements majeurs apportés par le commit.
 
 Exemple :
+
 ```plaintext
 feat(slash)!: suppression des classModifiers
 
